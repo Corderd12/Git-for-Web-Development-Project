@@ -1,0 +1,143 @@
+https://codepen.io/Corderd12/pen/yLyqMYe
+    
+    
+    
+    
+    1. What is Semantic HTML?
+    Semantic HTML adds specificty and meaning to html on the webpage.
+
+    2. What is HTML used for? 
+    HTML is used to defined web content meaning.
+
+    3. What is an attribute and where do we put it?
+    Attributes help define more information about a particular HTML element.
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 tags are the most important heading on a page.  You should only use 1 h1 tag per page.
+
+    5. Name two tags that have required attributes
+    <input> and <select>
+
+    6. What do we put in the head of our HTML document? 
+    Title of webpage, scripts, styles, meta information, etc...
+
+    7. What is an id? 
+    Id tags are used to specify an unique element.  Id's are typically used to by CSS and Javascript to perform a task for the unique element.
+
+    8. What elements can I add an id to? 
+    Any all elements but id tags must only be used once per page
+
+    9. How many times can I use the same id on a page? 
+    Once
+
+    10. What is a class? 
+    Classes are ways of specifying one of more clasnames for an element.
+
+    11. What elements can I add a class to? 
+    All elements
+
+    12. How many times can I use the same class on a page? 
+    As many as needed
+
+    13. How do I get my link to open in a new tab?
+    <a href="website" target="_blank">
+
+    14. What is the alt attribute used for? 
+    Specifies alternative text
+
+    15. How do I reference an id?
+    In CSS, you would use the # symbol.
+
+    16. What is the difference between a section and a div
+    Section tags are used to seperate larger groups of specifc content.  Div tags does not nessesarily convey or have any special meaning.
+
+    17. What is CSS used for? 
+    To add styling to webpages.
+
+    18. How to we select an element? Example - every h2 on the page
+    In regards to <h> tags, they're selected based on importance. <h> go from 1-6 with <h1> being the most important possible and should only be used once.
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    Id tags should only be used once on a webpage and used to idenify one unique element. Class elements can be used as many times as needed on a page
+    and can be used to identify more than one element.  
+
+    20. How do we select classes in CSS?
+    Using the "."
+
+    21. How do we select a p element with a single class of “human””?
+    .human {
+
+    }
+
+    22. What is a parent child selector? When would this be useful?
+    It is useful in targeting specific elements and changing the CSS styles of children tags independent from their parent tags.
+
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a:link{
+
+    }
+
+    24. What is a pseudo selector?
+    Pseudo selectors are CSS selectors for psuedo classes.  Pseudo classes are defined by elements in a special state such as "hover" or "visted". 
+
+    25. What do we use the change the spacing between lines?
+    line-height: in CSS
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing: in CSS
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, text-transform: lowercase, text-transform: capitalize
+
+    28. How do I add a 1px border around my div that is dotted and black?
+    div {
+      border: 1px dotted black
+    }
+
+    29. How do I select everything on the page? 
+    * {
+
+    }
+
+    30. How do I write a comment in CSS?
+    Using "/* */" marks
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    $ pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    $ ls -la
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this?
+    $ rm :  It is important to be careful because removing a file via the command line is permanent.
+
+    34. Why should I use version control? 
+    Because it allows you to recall older versions of your current project in case you need to take the project back to a previous state.
+
+    35. How often should I commit to github?
+    You should commit to github frequently such as whenever you finish a step in the project you are working on.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name
+
+    37. Walk me through Lambda's git flow. 
+    Create your own version of Repo, add your TL as a contributor, clone your repo, use the "cd" command to go to the directory where you are going to want to clone your forked Repo, use the git clone <link-to-repo> command to clone the repo to the directory you are currently in, cd into the newly created repo using the cd <repo-name> command, use the git checkout -b 'firstname-lastname' command to create your own branch name for the repo, add and commit changes on your branch after you complete work,
+    push your changes back up to your Github repo, submit pull-request, and finally add your TL to the Reviewers and then submit the pull request
+
+
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+  Block elements always start on a new line and takes up full width available.  Inline elements do not start on a new line and only take up as much space as necessary.
+
+    2. What happens when an element is positioned absolutely?
+    Elements positioned absolutely will be positioned relative to the nearest  positioned ancester or will move with the document body while scrolling.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    The box model is a set of rules for how CSS prioritizes and computes styling content on a webpage.  The box model in its normal form can be problematic and often causes problem with design within webpages.  Many of the problems can be resolved by using the "box-sizing: border-box;" selector.
+
+
+   --> 
